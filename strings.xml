@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">UNK Traditions</string>
+    <string-array name="navigation_drawer_items_array">
+        <item>Home</item>
+        <item>Welcome</item>
+        <item>Register</item>
+        <item>Login</item>
+        <item>Traditions</item>
+        <item>UNK Alumni</item>
+        <item>Contact Us</item>
+        <item>Help</item>
+    </string-array>
+    <string name="google_maps_key" templateMergeStrategy="preserve">AIzaSyBYS6XUJ2pMU6meQUOxpZzHXJ9YEkv430k</string>
+    <string name="register_to_login"><u>Already have an account? Click here to log in</u></string>
+    <string name="login_to_register"><u>First time logging in? Click here to sign up</u></string>
+    <string name="tradition_preview_1">Go to Daylight Donuts at 1 A.M.</string>
+    <string name="tradition_preview_2">Visit UNK\'s Planetarium.</string>
+    <string name="tradition_preview_3">Cheer on the Loper\'s at a football game.</string>
+    <string name="tradition_preview_4">Participate in Lip Sync for Homecoming.</string>
+    <string name="tradition_preview_5">Build a snowman on campus.</string>
+    <string name="tradition_preview_6">Attend a choir concert.</string>
+    <string name="tradition_preview_7">Attend a show in the Miriam Drake Theatre.</string>
+    <string name="tradition_preview_8">Go to the Blue and Gold Showcase.</string>
+    <string name="tradition_preview_9">Attend an event downtown at the World Theatre.</string>
+    <string name="tradition_description_1">Daylight Donuts has been downtown for many years. It is a great place that many students have eaten at over the years. And it opens late at night which is fantastic also.</string>
+    <string name="tradition_description_2">UNK\'s 60 seat public science theater was built in 2008 and is the newest and largest star theater in Nebraska.</string>
+    <string name="tradition_description_3">Show your Loper pride by cheering on the Lopers at their next football game.</string>
+    <string name="tradition_description_4">Lip Sync is a tradition that has been a part of Homecoming for a long time. It is a fun way to get into the Homecoming spirit and help your group win the Homecoming competition.</string>
+    <string name="tradition_description_5">It is always fun to have snow days, and although it is nice and warm inside, that does not mean fun cannot be had outside.</string>
+    <string name="tradition_description_6">UNK has quite a few choirs and they perform multiple times a year. So go support your fellow Lopers in the Fine Arts and listen to some beautiful music.</string>
+    <string name="tradition_description_7">UNK also puts on many theatre productions throughout the year and they are always wonderful to watch. Most shows are free or only a few dollars, so get your tickets while they are still available.</string>
+    <string name="tradition_description_8">Every year, on move in day in the fall, UNK holds the Blue and Gold Showcase. It is an event where organizations on campus and in the community set up booths and show students how to get involved.</string>
+    <string name="tradition_description_9">The World Theatre is a nonprofit, volunteer-run theatre in downtown Kearney that was built in 1927. It was closed for several years before being reopened in 2012 after being renovated.</string>
+    <string name="tradition_instruction_1">Go to Daylight Donuts when they open at 1 A.M. The donuts are the best then because they are fresh.</string>
+    <string name="tradition_instruction_2">Visit the planetarium some night because the shows there start at 7 P.M. and are free to the public.</string>
+    <string name="tradition_instruction_3">Go to a football game and sit in the student section and help cheer the Lopers on to victory.</string>
+    <string name="tradition_instruction_4">Participate with your resident hall or Greek organization\'s Lip Sync.</string>
+    <string name="tradition_instruction_5">Find a few friends and build a snowman on the greens on campus to have fun in the snow.</string>
+    <string name="tradition_instruction_6">Attend a choir concert put on by one or all of the UNK choirs.</string>
+    <string name="tradition_instruction_7">Go get a ticket from the box office and attend one of the shows.</string>
+    <string name="tradition_instruction_8">Go to the Blue and Gold Showcase and learn about other organizations while also getting free stuff.</string>
+    <string name="tradition_instruction_9">Attend one of the movies or events put on at the theatre and see a beautiful piece of history.</string>
+    <string name="president_letter">This will be a letter from someone or other, but until then, here are a few words from me. Please enjoy the app and have fun completing the traditions. And until we get a letter, here is a picture of me as a pirate. Good luck, and Go Lopes!</string>
+    <string name="president_signature">Rachel Feddersen, App Developer\nUNK Alumni Association</string>
+    <string name="month_prompt">Est. Grad. Month</string>
+    <string name="december">December</string>
+    <string name="may">May</string>
+    <string name="july">July</string>
+    <string name="help_text_item_1">View a list of traditions</string>
+    <string name="help_text_item_2">Complete traditions</string>
+    <string name="help_text_item_3">Keep record of completed traditions</string>
+    <string name="help_text_item_4">Earn rewards</string>
+    <string name="help_text_item_5">Learn about the history of traditions</string>
+    <string name="help_text_item_6">Have fun!</string>
+</resources>

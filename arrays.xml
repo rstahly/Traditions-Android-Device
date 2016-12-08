@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="tradtion_list_pics">
+        <item>@drawable/tradition_thumb_1</item>
+        <item>@drawable/tradition_thumb_2</item>
+        <item>@drawable/tradition_thumb_3</item>
+        <item>@drawable/tradition_thumb_4</item>
+        <item>@drawable/tradition_thumb_5</item>
+        <item>@drawable/tradition_thumb_6</item>
+        <item>@drawable/tradition_thumb_7</item>
+        <item>@drawable/tradition_thumb_8</item>
+        <item>@drawable/tradition_thumb_9</item>
+    </integer-array>
+    <integer-array name="tradtion_detail_pics">
+        <item>@drawable/tradition_photo_1</item>
+        <item>@drawable/tradition_photo_2</item>
+        <item>@drawable/tradition_photo_3</item>
+        <item>@drawable/tradition_photo_4</item>
+        <item>@drawable/tradition_photo_5</item>
+        <item>@drawable/tradition_photo_6</item>
+        <item>@drawable/tradition_photo_7</item>
+        <item>@drawable/tradition_photo_8</item>
+        <item>@drawable/tradition_photo_9</item>
+    </integer-array>
+    <integer-array name="tradtion_list_previews">
+        <item>@string/tradition_preview_1</item>
+        <item>@string/tradition_preview_2</item>
+        <item>@string/tradition_preview_3</item>
+        <item>@string/tradition_preview_4</item>
+        <item>@string/tradition_preview_5</item>
+        <item>@string/tradition_preview_6</item>
+        <item>@string/tradition_preview_7</item>
+        <item>@string/tradition_preview_8</item>
+        <item>@string/tradition_preview_9</item>
+    </integer-array>
+    <integer-array name="tradtion_list_descriptions">
+        <item>@string/tradition_description_1</item>
+        <item>@string/tradition_description_2</item>
+        <item>@string/tradition_description_3</item>
+        <item>@string/tradition_description_4</item>
+        <item>@string/tradition_description_5</item>
+        <item>@string/tradition_description_6</item>
+        <item>@string/tradition_description_7</item>
+        <item>@string/tradition_description_8</item>
+        <item>@string/tradition_description_9</item>
+    </integer-array>
+    <integer-array name="tradtion_list_instructions">
+        <item>@string/tradition_instruction_1</item>
+        <item>@string/tradition_instruction_2</item>
+        <item>@string/tradition_instruction_3</item>
+        <item>@string/tradition_instruction_4</item>
+        <item>@string/tradition_instruction_5</item>
+        <item>@string/tradition_instruction_6</item>
+        <item>@string/tradition_instruction_7</item>
+        <item>@string/tradition_instruction_8</item>
+        <item>@string/tradition_instruction_9</item>
+    </integer-array>
+    <integer-array name="month_list">
+        <item>@string/month_prompt</item>
+        <item>@string/december</item>
+        <item>@string/may</item>
+        <item>@string/july</item>
+    </integer-array>
+</resources>

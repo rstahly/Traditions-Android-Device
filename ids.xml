@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="home_page_image" type="id" />
+    <item name="welcome_button" type="id" />
+    <item name="register_login_button" type="id" />
+    <item name="traditions_button" type="id" />
+    <item name="unk_alumni_button" type="id" />
+    <item name="events_button" type="id" />
+</resources>

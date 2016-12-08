@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll_view_register" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:text="Fill out the form to get started with using the app."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/register_instructions" />
+
+            <TextView
+                android:text="@string/register_to_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/register_instructions"
+                android:clickable="true"
+                android:onClick="buttonClicked"
+                android:textColor="#0000FF"
+                android:id="@+id/login_page_button" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textCapSentences"
+                android:hint="First Name"
+                android:layout_below="@+id/login_page_button"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:id="@+id/first_name" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textCapSentences"
+                android:hint="Last Name"
+                android:layout_below="@+id/first_name"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:id="@+id/last_name" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Loper E-mail"
+                android:layout_below="@+id/last_name"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:id="@+id/register_email" />
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/register_email"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:id="@+id/graduation_date"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/graduation_month" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="Est. Grad. Year"
+                    android:layout_weight="1"
+                    android:id="@+id/graduation_year" />
+
+            </LinearLayout>
+
+            <Button
+                android:text="Register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/graduation_date"
+                android:id="@+id/register_button"
+                android:onClick="buttonClicked" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
